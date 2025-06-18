@@ -124,7 +124,12 @@ function App() {
       <div className="navbar bg-base-100 shadow-sm sticky top-0 z-50">
         <a className="btn btn-ghost text-xl">water-map</a>
       </div>
-      <div className="flex flex-col justify-center items-center mt-2 gap-4 p-4 pb-20">
+      <div className="flex flex-col justify-center items-center mt-2 gap-4 p-4 pb-20 max-w-xl mx-auto">
+        <div>
+          {/* ライセンスを気にせず好きに使ってほしい。もちろん改変も再配布も可能。 */}
+          <p>作成・ダウンロードしたノーマルマップは、個人・商用問わず自由にご利用いただけます。改変や再配布も歓迎です。</p>
+          <a className="text-blue-600" href="https://masabando.github.io/easy-three/">easy-three</a> で使ってもらえると作者は喜びます。
+        </div>
         <div className="form-control w-full">
           <label className="label">
             <span className="label-text">Noise Detail : {noiseDetail}</span>
