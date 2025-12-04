@@ -130,8 +130,9 @@ function App() {
       <div className="flex flex-col justify-center items-center mt-2 gap-4 p-4 pb-20 max-w-xl mx-auto">
         <div>
           <p>
-            水面のノーマルマップを生成します。<br />
-            生成されたノーマルマップは、3Dグラフィックスやゲーム開発において、水面のリアルな凹凸表現に利用できます。
+            シームレスな水面のノーマルマップを生成します。<br />
+            生成されたノーマルマップは、3Dグラフィックスやゲーム開発において、水面のリアルな凹凸表現に利用できます。<br />
+            シームレスなテクスチャなので、繰り返し使用しても継ぎ目が目立ちません。
           </p>
         </div>
         <div className="form-control w-full">
